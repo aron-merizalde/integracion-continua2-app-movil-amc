@@ -3,7 +3,7 @@ name: App Flutter
 on:
   push:
     branches:
-      - master
+      - main
 env:
   GH_TOKEN: ${{ github.token }} # token de GitHub para tener permisos para crear la Action
 jobs:
